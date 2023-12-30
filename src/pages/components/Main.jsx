@@ -11,7 +11,7 @@ const Main = () => {
             <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
                 <div>
                     <h1 className="py-4 text-black-300">
-                        Hi, I&apos;m <span className="text-[#3EB489]">Julian</span>
+                        Hi, I&apos;m <span className="text-[#800000]">Julian</span>
                     </h1>
                     <h2 className="py-2 text-gray-700">
                         Software Engineer
