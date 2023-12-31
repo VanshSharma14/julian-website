@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-//import image from pictures folder in parent public folder
+import placeholder from '../../../public/my_images/Specialty_Pizza.jpg'
 
 const About = () => {
     return (
@@ -21,9 +21,9 @@ const About = () => {
                     </p>
                 </div>
                 <div className="w-full h-auto m-auto shadow-s shadow-gray-700 rounded-xl flex items-center justify-center p-4 hover:scale-75 ease-in duration-200">
-                    //Image here
+                    <Image src={placeholder} className="rounded-xl" alt='/'></Image>
                 </div>
-                <div>
+                <div className="w-full h-auto m-auto flex items-center justify-center">
                     //Timeline here
                 </div>
             </div>
