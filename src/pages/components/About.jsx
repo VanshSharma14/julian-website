@@ -8,18 +8,18 @@ const About = () => {
         <div id='about' className="w-full md:h-screen p-2 flex items-center py-16">
             <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
                 <div className="col-span-2">
-                    <h2 className="uppercase text-2xl tracking-widest text-[#800000]">
+                    <h2 className="uppercase text-2xl tracking-widest text-[#FFAE42]">
                         About
                     </h2>
 
-                    <p className="py-2 text-gray-700 text-center">
+                    <p className="py-2 text-white text-center">
                         About text goes here About text goes here About text goes here
                         About text goes here About text goes here About text goes here
                         About text goes here About text goes here About text goes here
                         About text goes here About text goes here About text goes here
                     </p>
 
-                    <p className="py-2 text-gray-700 text-center">
+                    <p className="py-2 text-white text-center">
                     Second paragraph maybe? Second paragraph maybe?
                     Second paragraph maybe? Second paragraph maybe?
                     Second paragraph maybe? Second paragraph maybe?

@@ -10,7 +10,7 @@ const ProjectItem = ({title, backgroundImg, githubURL}) => {
 
             {/* <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[50%] translate-y-[50%]"> */}
             <div className="hidden group-hover:block absolute">
-                <h3 className="text-2xl text-gray-700 tracking-wider text-center top-[50%] left-[50%]">
+                <h3 className="text-2xl text-white tracking-wider text-center top-[50%] left-[50%]">
                     {title}
                 </h3>
 

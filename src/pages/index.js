@@ -6,7 +6,7 @@ import Timeline from "./components/Timeline";
 
 export default function Home() {
   return (
-      <div className="bg-[#E4DAC7] bg-opacity-85">
+      <div className="bg-[#B8C1EC] bg-opacity-85"> {/* #E4DAC7 */}
         <Head>
           <title>Julian Grande | Software Engineer</title>
           <meta name="description" content="Julian Grande's Portfolio Website"></meta>
