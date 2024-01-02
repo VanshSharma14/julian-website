@@ -10,10 +10,10 @@ const Main = () => {
         <div id='home' className="w-full h-screen text-center">
             <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
                 <div>
-                    <h1 className="py-4 text-black-300">
-                        Hi, I&apos;m <span className="text-[#F89524]">Julian</span>
+                    <h1 className="py-4 text-[#232323]">
+                        Hi, I&apos;m <span className="text-[#f45d48]">Julian</span>
                     </h1>
-                    <h2 className="py-2 text-white">
+                    <h2 className="py-2 text-[#222525]">
                         Software Engineer
                     </h2>
                     <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
@@ -22,7 +22,7 @@ const Main = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-75 ease-in duration-200">
+                            <div className="rounded-full shadow-lg shadow-[#eebbc3] p-6 cursor-pointer hover:scale-75 ease-in duration-200">
                                 <FaLinkedinIn />
                             </div>
                         </a>
@@ -32,7 +32,7 @@ const Main = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-75 ease-in duration-200">
+                            <div className="rounded-full shadow-lg shadow-[#eebbc3] p-6 cursor-pointer hover:scale-75 ease-in duration-200">
                                 <FaGithub />
                             </div>
                         </a>
@@ -44,7 +44,7 @@ const Main = () => {
                         </Link> */}
 
                         <Link href="/resume"> {/* Link this to resume in drive instead */}
-                            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-75 ease-in duration-200">
+                            <div className="rounded-full shadow-lg shadow-[#eebbc3] p-6 cursor-pointer hover:scale-75 ease-in duration-200">
                                 <BsFillPersonLinesFill />
                             </div>
                         </Link>
