@@ -9,7 +9,7 @@ const About = () => {
         <div id='about' className="w-full md:h-screen p-2 flex items-center py-16">
             <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
                 <div className="col-span-2">
-                    <h2 className="uppercase text-xl tracking-widest text-[#800000] text-center">
+                    <h2 className="uppercase text-2xl tracking-widest text-[#800000]">
                         About
                     </h2>
 
@@ -30,7 +30,6 @@ const About = () => {
                     <Image src={placeholder} className="rounded-xl" alt='/'></Image>
                 </div>
             </div>
-            <Timeline />
         </div>
 
     );

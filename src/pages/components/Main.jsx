@@ -37,11 +37,11 @@ const Main = () => {
                             </div>
                         </a>
 
-                        <Link href="/#contact">
+                        {/* <Link href="/#contact">
                             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-75 ease-in duration-200">
                                 <AiOutlineMail />
                             </div>
-                        </Link>
+                        </Link> */}
 
                         <Link href="/resume">
                             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-75 ease-in duration-200">

@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Main from "./components/Main";
 import About from "./components/About";
+import ProjectCards from "./components/ProjectCards";
+import Timeline from "./components/Timeline";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
         </Head>
         <Main />
         <About />
+        <Timeline />
+        <ProjectCards />
       </div>
   );
 };
