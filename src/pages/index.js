@@ -3,6 +3,7 @@ import Main from "./components/Main";
 import About from "./components/About";
 import ProjectCards from "./components/ProjectCards";
 import Timeline from "./components/Timeline";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <About />
         <Timeline />
         <ProjectCards />
+        <Footer />
       </div>
   );
 };
