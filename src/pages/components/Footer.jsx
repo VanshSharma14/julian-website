@@ -6,7 +6,7 @@ const Footer = () => {
     return (
 
         <div id="footer">
-            <div className="text-center py-4 text-[#232323]">
+            <div className="text-center py-4 text-[#232323] font-[Helvetica]">
                 <p>© {year} Julian Grande</p>
             </div>
         </div>

@@ -37,19 +37,19 @@ const Navbar = () => {
                 </Link>
                 <div>
                     <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-                        <li className="ml-10 text-md uppercase hover:border-b">
+                        <li className="ml-10 text-md uppercase hover:border-b font-[Helvetica]">
                             <Link href="/">Home</Link>
                         </li>
 
-                        <li className="ml-10 text-md uppercase hover:border-b">
+                        <li className="ml-10 text-md uppercase hover:border-b font-[Helvetica]">
                             <Link href="/#about">About</Link>
                         </li>
 
-                        <li className="ml-10 text-md uppercase hover:border-b">
+                        <li className="ml-10 text-md uppercase hover:border-b font-[Helvetica]">
                             <Link href="/#projectCards">Projects</Link>
                         </li>
 
-                        <li className="ml-10 text-md uppercase hover:border-b">
+                        <li className="ml-10 text-md uppercase hover:border-b font-[Helvetica]">
                             <Link href="/">Resume</Link> {/* link to drive here too */}
                         </li>
                     </ul>
@@ -76,25 +76,25 @@ const Navbar = () => {
                     <div className="py-4 flex flex-col">
                         <ul className="uppercase">
                             <Link href="/">
-                                <li onClick={() => setNav(false)} className="py-4 text-md">
+                                <li onClick={() => setNav(false)} className="py-4 text-md font-[Helvetica]">
                                     Home
                                 </li>
                             </Link>
 
                             <Link href="/#about">
-                                <li onClick={() => setNav(false)} className="py-4 text-md">
+                                <li onClick={() => setNav(false)} className="py-4 text-md font-[Helvetica]">
                                     About
                                 </li>
                             </Link>
 
                             <Link href="/#projectCards">
-                                <li onClick={() => setNav(false)} className="py-4 text-md">
+                                <li onClick={() => setNav(false)} className="py-4 text-md font-[Helvetica]">
                                     Projects
                                 </li>
                             </Link>
 
                             <Link href="/"> {/* link to drive here too */}
-                                <li onClick={() => setNav(false)} className="py-4 text-md">
+                                <li onClick={() => setNav(false)} className="py-4 text-md font-[Helvetica]">
                                     Resume
                                 </li>
                             </Link>

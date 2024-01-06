@@ -8,9 +8,9 @@ const Main = () => {
     return (
 
         <div id='home' className="w-full h-screen text-center">
-            <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+            <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center font-[Arial]">
                 <div>
-                    <h1 className="py-4 text-[#232323]">
+                    <h1 className="py-4 text-[#232323] text-6xl font-[Helvetica]">
                         Hi, I&apos;m <span className="text-[#f45d48]">Julian</span>
                     </h1>
                     <h2 className="py-2 text-[#222525]">

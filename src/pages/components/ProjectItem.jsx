@@ -15,7 +15,7 @@ const ProjectItem = ({title, backgroundImg, githubURL}) => {
                 </h3>
 
                 <Link href={githubURL}>
-                    <p className="text-center py-2 rounded-lg bg-[#078080] text-[#232323] font-bold text-lg cursor-pointer">
+                    <p className="text-center py-2 rounded-lg bg-[#078080] text-[#232323] font-bold text-lg cursor-pointer font-[Arial]">
                         More Info
                     </p>
                 </Link>

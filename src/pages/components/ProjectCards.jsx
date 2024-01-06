@@ -10,7 +10,7 @@ const ProjectCards = () => {
 
         <div id="projectCards" className="w-full">
             <div className="max-w-[960px] mx-auto px-2 py-16">
-                <h2 className="text-2xl tracking-widest uppercase text-[#f45d48]">
+                <h2 className="text-2xl tracking-widest uppercase text-[#f45d48] font-[Helvetica]">
                     Projects
                 </h2>
                 <div className="grid md:grid-cols-2 gap-8">

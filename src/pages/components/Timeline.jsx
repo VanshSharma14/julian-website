@@ -20,12 +20,12 @@ const Timeline = () => {
 
                     {/* Content */}
                     <div className="flex-auto">
-                        <h3>Hack4Impact - Rutgers, NJ</h3>
-                        <h3>Backend Team Member</h3>
-                        <p>Spring 2023</p>
+                        <h3 className="font-[Helvetica]">Hack4Impact - Rutgers, NJ</h3>
+                        <h3 className="font-[Arial]">Backend Team Member</h3>
+                        <p className="font-[Arial]">Spring 2023</p>
                     </div>
 
-                    <section href="#" className="text-center text-[#222525]">Full Stack</section>
+                    <section href="#" className="text-center text-[#222525] font-[Arial]">Full Stack</section>
                 </div>
 
 

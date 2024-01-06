@@ -11,7 +11,6 @@ export default function Home() {
         <Head>
           <title>Julian Grande | Software Engineer</title>
           <meta name="description" content="Julian Grande's Portfolio Website"></meta>
-          //some image here maybe a selfie?
         </Head>
         <Main />
         <About />
