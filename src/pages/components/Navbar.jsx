@@ -10,10 +10,12 @@ const Navbar = () => {
     const [navBG, setNavBG] = useState('#f8f5f2');
     const [linkColor, setLinkColor] = useState('#078080');
 
+    {/* toggle navigation bar on or off after selecting a link */}
     const handleNav = () => {
         setNav(!nav);
     };
 
+    {/* shadow when scrolling down */}
     useEffect(() => {
         const handleShadow = () => {
           if (window.scrollY >= 90) {
@@ -27,22 +29,27 @@ const Navbar = () => {
 
       return (
         <div style={{ backgroundColor: `${navBG}` }} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-200' : 'fixed w-full h-20 z-[100]'}>
+            {/* Normal navbar */}
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+                {/* forces alignment of links to the far right */}
+                <Link href="/">
+                        <p className="cursor-pointer"> </p>
+                </Link>
                 <div>
                     <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-                        <li className="ml-10 text-sm uppercase hover:border-b">
+                        <li className="ml-10 text-md uppercase hover:border-b">
                             <Link href="/">Home</Link>
                         </li>
 
-                        <li className="ml-10 text-sm uppercase hover:border-b">
+                        <li className="ml-10 text-md uppercase hover:border-b">
                             <Link href="/#about">About</Link>
                         </li>
 
-                        <li className="ml-10 text-sm uppercase hover:border-b">
+                        <li className="ml-10 text-md uppercase hover:border-b">
                             <Link href="/#projectCards">Projects</Link>
                         </li>
 
-                        <li className="ml-10 text-sm uppercase hover:border-b">
+                        <li className="ml-10 text-md uppercase hover:border-b">
                             <Link href="/">Resume</Link> {/* link to drive here too */}
                         </li>
                     </ul>
@@ -69,25 +76,25 @@ const Navbar = () => {
                     <div className="py-4 flex flex-col">
                         <ul className="uppercase">
                             <Link href="/">
-                                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                                <li onClick={() => setNav(false)} className="py-4 text-md">
                                     Home
                                 </li>
                             </Link>
 
                             <Link href="/#about">
-                                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                                <li onClick={() => setNav(false)} className="py-4 text-md">
                                     About
                                 </li>
                             </Link>
 
                             <Link href="/#projectCards">
-                                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                                <li onClick={() => setNav(false)} className="py-4 text-md">
                                     Projects
                                 </li>
                             </Link>
 
                             <Link href="/"> {/* link to drive here too */}
-                                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                                <li onClick={() => setNav(false)} className="py-4 text-md">
                                     Resume
                                 </li>
                             </Link>
