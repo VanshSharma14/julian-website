@@ -16,7 +16,6 @@ export default function Home() {
         <Main />
         <About />
         <Skills />
-        <Timeline />
         <ProjectCards />
         <Footer />
       </div>

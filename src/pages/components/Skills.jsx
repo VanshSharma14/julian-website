@@ -1,4 +1,5 @@
 import React from 'react';
+import Timeline from './Timeline';
 
 const skills = [
 
@@ -41,6 +42,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
+            <Timeline />
         </div>
 
     );
