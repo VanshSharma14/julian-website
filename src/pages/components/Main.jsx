@@ -37,7 +37,7 @@ const Main = () => {
                             </div>
                         </a>
 
-                        <Link href="https://drive.google.com/file/d/1ceDuzclr3iZY0oL1IO1WxQaF3LRaHSsZ/view?usp=sharing"> {/* Link this to resume in drive instead */}
+                        <Link href="https://drive.google.com/file/d/1ceDuzclr3iZY0oL1IO1WxQaF3LRaHSsZ/view?usp=sharing">
                             <div className="rounded-full shadow-lg shadow-[#eebbc3] p-6 cursor-pointer hover:scale-75 ease-in duration-200">
                                 <BsFillPersonLinesFill />
                             </div>
