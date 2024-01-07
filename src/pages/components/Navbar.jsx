@@ -62,8 +62,8 @@ const Navbar = () => {
 
             {/* mobile menu */}
 
-            <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
-                <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[60%] h-screen bg-[#f8f5f2] p-10 ease-in duration-500' : 'fixed left-[100%] top-0 p-10 ease-in duration-500'}>
+            <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/60' : ''}>
+                <div className={nav ? 'fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[60%] h-screen bg-[#f8f5f2] p-10 ease-in duration-200' : 'fixed left-[100%] top-0 p-10 ease-in duration-200'}>
                     <div>
                         <div className="flex w-full items-center justify-between">
                             <div onClick={handleNav} className="rounded-full shadow-lg shadow-[#eebbc3] p-3 cursor-pointer">
