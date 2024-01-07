@@ -1,0 +1,49 @@
+import React from 'react';
+
+const skills = [
+
+    { skill: "HTML" },
+    { skill: "CSS" },
+    { skill: "JavaScript" },
+    { skill: "Python" },
+    { skill: "Java" },
+    { skill: "Bash" },
+    { skill: "C/C++" },
+    { skill: "SQL" },
+    { skill: "R" },
+    { skill: "Scheme" },
+    { skill: "React" },
+    { skill: "Next.JS" },
+    { skill: "Tailwind CSS" },
+    { skill: "Git" },
+    { skill: "Github" },
+
+]
+
+const Skills = () => {
+    return (
+
+        <div id='skills' className="my-12 pb-12 md:pt-16 md:pb-48">
+            <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
+                <div className="text-center md:w-1/2 md:text-left">
+                    <h2 className="text-2xl tracking-widest uppercase text-[#f45d48] font-[Helvetica]">
+                        Skills
+                    </h2>
+
+                    <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+                        {skills.map((item, idx) => {
+                            return (
+                                <p key={idx} className="bg-gray-300 px-4 py-2 mr-2 mt-2 text-[#222525] rounded font-semibold">
+                                   {item.skill}
+                                </p>
+                            );
+                        })}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    );
+};
+
+export default Skills;
