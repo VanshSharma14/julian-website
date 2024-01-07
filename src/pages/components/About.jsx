@@ -27,7 +27,7 @@ const About = () => {
                     Second paragraph maybe? Second paragraph maybe?
                     </p>
                 </div>
-                <div className="w-full h-auto m-auto shadow-s shadow-gray-700 rounded-xl flex items-center justify-center p-4 hover:scale-75 ease-in duration-200">
+                <div className="w-full h-auto m-auto shadow-s shadow-gray-700 rounded-xl items-center justify-center p-4 hover:scale-75 ease-in duration-200 hidden md:inline-block lg:inline-block">
                     <Image src={placeholder} className="rounded-xl" alt='/'></Image>
                 </div>
             </div>    
