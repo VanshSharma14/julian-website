@@ -50,7 +50,7 @@ const Navbar = () => {
                         </li>
 
                         <li className="ml-10 text-md uppercase hover:border-b font-[Helvetica]">
-                            <Link href="/">Resume</Link> {/* link to drive here too */}
+                            <Link href="https://drive.google.com/file/d/1ceDuzclr3iZY0oL1IO1WxQaF3LRaHSsZ/view?usp=sharing">Resume</Link> {/* link to drive here too */}
                         </li>
                     </ul>
 
@@ -93,7 +93,7 @@ const Navbar = () => {
                                 </li>
                             </Link>
 
-                            <Link href="/"> {/* link to drive here too */}
+                            <Link href="https://drive.google.com/file/d/1ceDuzclr3iZY0oL1IO1WxQaF3LRaHSsZ/view?usp=sharing"> {/* link to drive here too */}
                                 <li onClick={() => setNav(false)} className="py-4 text-md font-[Helvetica]">
                                     Resume
                                 </li>
@@ -125,7 +125,7 @@ const Navbar = () => {
                                     </div>
                                 </a>
 
-                                <Link href="/"> {/* link to Drive here too */}
+                                <Link href="https://drive.google.com/file/d/1ceDuzclr3iZY0oL1IO1WxQaF3LRaHSsZ/view?usp=sharing"> {/* link to Drive here too */}
                                     <div onClick={() => setNav(!nav)} className="rounded-full shadow-lg shadow-[#eebbc3] p-3 cursor-pointer hover:scale-105 ease-in duration-200">
                                         <BsFillPersonLinesFill />
                                     </div>

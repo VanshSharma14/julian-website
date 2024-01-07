@@ -7,8 +7,6 @@ const ProjectItem = ({title, backgroundImg, githubURL}) => {
 
         <div className="relative flex items-center justify-center h-auto w-full shadow-lg shadow-gray-400 rounded-xl group hover:bg-transparent">
             <Image className="rounded-l group-hover:opacity-10" src={backgroundImg} alt="/"></Image>
-
-            {/* <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[50%] translate-y-[50%]"> */}
             <div className="hidden group-hover:block absolute">
                 <h3 className="text-2xl text-[#232323] tracking-wider text-center top-[50%] left-[50%]">
                     {title}
