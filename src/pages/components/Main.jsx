@@ -22,7 +22,7 @@ const Main = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <div className="rounded-full shadow-lg shadow-[#eebbc3] p-6 cursor-pointer hover:scale-75 ease-in duration-200">
+                            <div className="rounded-full shadow-md shadow-[#f45d48] p-6 cursor-pointer hover:scale-75 ease-in duration-200">
                                 <FaLinkedinIn />
                             </div>
                         </a>
@@ -32,13 +32,13 @@ const Main = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <div className="rounded-full shadow-lg shadow-[#eebbc3] p-6 cursor-pointer hover:scale-75 ease-in duration-200">
+                            <div className="rounded-full shadow-md shadow-[#f45d48] p-6 cursor-pointer hover:scale-75 ease-in duration-200">
                                 <FaGithub />
                             </div>
                         </a>
 
                         <Link href="https://drive.google.com/file/d/1ceDuzclr3iZY0oL1IO1WxQaF3LRaHSsZ/view?usp=sharing">
-                            <div className="rounded-full shadow-lg shadow-[#eebbc3] p-6 cursor-pointer hover:scale-75 ease-in duration-200">
+                            <div className="rounded-full shadow-md shadow-[#f45d48] p-6 cursor-pointer hover:scale-75 ease-in duration-200">
                                 <BsFillPersonLinesFill />
                             </div>
                         </Link>

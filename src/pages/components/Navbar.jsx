@@ -37,20 +37,24 @@ const Navbar = () => {
                 </Link>
                 <div>
                     <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-                        <li className="ml-10 text-md uppercase hover:border-b font-[Helvetica]">
-                            <Link href="/">Home</Link>
+                        <li className="ml-10 text-md uppercase hover:border-b hover:border-[#f45d48] font-[Helvetica]">
+                            <Link href="/" className="text-[#222525]">Home</Link>
                         </li>
 
-                        <li className="ml-10 text-md uppercase hover:border-b font-[Helvetica]">
-                            <Link href="/#about">About</Link>
+                        <li className="ml-10 text-md uppercase hover:border-b hover:border-[#f45d48] font-[Helvetica]">
+                            <Link href="/#about" className="text-[#222525]">About</Link>
                         </li>
 
-                        <li className="ml-10 text-md uppercase hover:border-b font-[Helvetica]">
-                            <Link href="/#projectCards">Projects</Link>
+                        <li className="ml-10 text-md uppercase hover:border-b hover:border-[#f45d48] font-[Helvetica]">
+                            <Link href="/#skills" className="text-[#222525]">Skills</Link>
                         </li>
 
-                        <li className="ml-10 text-md uppercase hover:border-b font-[Helvetica]">
-                            <Link href="https://drive.google.com/file/d/1ceDuzclr3iZY0oL1IO1WxQaF3LRaHSsZ/view?usp=sharing">Resume</Link>
+                        <li className="ml-10 text-md uppercase hover:border-b hover:border-[#f45d48] font-[Helvetica]">
+                            <Link href="/#projectCards" className="text-[#222525]">Projects</Link>
+                        </li>
+
+                        <li className="ml-10 text-md uppercase hover:border-b hover:border-[#f45d48] font-[Helvetica]">
+                            <Link href="https://drive.google.com/file/d/1ceDuzclr3iZY0oL1IO1WxQaF3LRaHSsZ/view?usp=sharing" className="text-[#222525]">Resume</Link>
                         </li>
                     </ul>
 
@@ -76,25 +80,31 @@ const Navbar = () => {
                     <div className="py-4 flex flex-col">
                         <ul className="uppercase">
                             <Link href="/">
-                                <li onClick={() => setNav(false)} className="py-4 text-md font-[Helvetica]">
+                                <li onClick={() => setNav(false)} className="py-4 text-md font-[Helvetica] text-[#222525]">
                                     Home
                                 </li>
                             </Link>
 
                             <Link href="/#about">
-                                <li onClick={() => setNav(false)} className="py-4 text-md font-[Helvetica]">
+                                <li onClick={() => setNav(false)} className="py-4 text-md font-[Helvetica] text-[#222525]">
                                     About
                                 </li>
                             </Link>
 
+                            <Link href="/#skills">
+                                <li onClick={() => setNav(false)} className="py-4 text-md font-[Helvetica] text-[#222525]">
+                                    Skills
+                                </li>
+                            </Link>
+
                             <Link href="/#projectCards">
-                                <li onClick={() => setNav(false)} className="py-4 text-md font-[Helvetica]">
+                                <li onClick={() => setNav(false)} className="py-4 text-md font-[Helvetica] text-[#222525]">
                                     Projects
                                 </li>
                             </Link>
 
                             <Link href="https://drive.google.com/file/d/1ceDuzclr3iZY0oL1IO1WxQaF3LRaHSsZ/view?usp=sharing">
-                                <li onClick={() => setNav(false)} className="py-4 text-md font-[Helvetica]">
+                                <li onClick={() => setNav(false)} className="py-4 text-md font-[Helvetica] text-[#222525]">
                                     Resume
                                 </li>
                             </Link>
@@ -109,7 +119,7 @@ const Navbar = () => {
                                     rel="noreferrer"
                                 >
                                     
-                                    <div className="rounded-full shadow-lg shadow-[#eebbc3] p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                                    <div className="rounded-full shadow-md shadow-[#f45d48] p-3 cursor-pointer hover:scale-105 ease-in duration-200">
                                         <FaLinkedinIn />
                                     </div>
                                 </a>
@@ -120,13 +130,13 @@ const Navbar = () => {
                                     rel="noreferrer"
                                 >
                                     
-                                    <div className="rounded-full shadow-lg shadow-[#eebbc3] p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                                    <div className="rounded-full shadow-md shadow-[#f45d48] p-3 cursor-pointer hover:scale-105 ease-in duration-200">
                                         <FaGithub />
                                     </div>
                                 </a>
 
                                 <Link href="https://drive.google.com/file/d/1ceDuzclr3iZY0oL1IO1WxQaF3LRaHSsZ/view?usp=sharing">
-                                    <div onClick={() => setNav(!nav)} className="rounded-full shadow-lg shadow-[#eebbc3] p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                                    <div onClick={() => setNav(!nav)} className="rounded-full shadow-md shadow-[#f45d48] p-3 cursor-pointer hover:scale-105 ease-in duration-200">
                                         <BsFillPersonLinesFill />
                                     </div>
                                 </Link>
