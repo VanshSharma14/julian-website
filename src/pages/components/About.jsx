@@ -15,17 +15,18 @@ const About = () => {
                         <hr className="w-6 h-1 mx-auto my-4 bg-[#078080] border-0 rounded"></hr>
                     </h2>
 
-                    <p className="py-2 text-[#222525] text-center font-[Arial]">
-                        About text goes here About text goes here About text goes here
-                        About text goes here About text goes here About text goes here
-                        About text goes here About text goes here About text goes here
-                        About text goes here About text goes here About text goes here
+                    <p className="py-2 text-[#222525] text-left font-[Arial]">
+                        Hello! I'm Julian Grande, aspiring software engineer currently pursuing my degree at Rutgers University, set to graduate in 2024. 
+                        Proficient in languages such as Java and C/C++, I specialize in crafting innovative Android apps and libraries. 
+                        My journey in computer science is fueled by a <span className="font-bold">profound passion for technology</span>, 
+                        and I am genuinely motivated by the dynamic and ever-evolving nature of the field. 
+                        My goal is to contribute to the creation of software that not only meets the needs of users but <span className="font-bold text-[#078080]">leaves a lasting impact</span>. 
                     </p>
 
-                    <p className="py-2 text-[#222525] text-center font-[Arial]">
-                    Second paragraph maybe? Second paragraph maybe?
-                    Second paragraph maybe? Second paragraph maybe?
-                    Second paragraph maybe? Second paragraph maybe?
+                    <p className="py-2 text-[#222525] text-left font-[Arial]">
+                        Besides Software, I am also deeply passionate about cars and their performance, particularly f1 racing.
+                        In my spare time, I like to do weightlifting
+                        and I love to listen to rnb and pop music. 
                     </p>
                 </div>
                 <div className="w-full h-auto m-auto shadow-s shadow-gray-700 rounded-xl items-center justify-center p-4 hover:scale-75 ease-in duration-200 hidden md:inline-block lg:inline-block">
