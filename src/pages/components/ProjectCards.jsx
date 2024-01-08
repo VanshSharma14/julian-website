@@ -10,8 +10,9 @@ const ProjectCards = () => {
 
         <div id="projectCards" className="w-full">
             <div className="max-w-[960px] mx-auto px-2 py-16">
-                <h2 className="text-2xl tracking-widest uppercase text-[#f45d48] font-[Helvetica]">
+                <h2 className="text-2xl tracking-widest uppercase text-[#f45d48] font-[Helvetica] text-center">
                     Projects
+                    <hr className="w-6 h-1 mx-auto my-4 bg-[#078080] border-0 rounded"></hr>
                 </h2>
                 <div className="grid md:grid-cols-2 gap-8">
 
