@@ -7,7 +7,7 @@ const Footer = () => {
 
         <div id="footer">
             <div className="text-center py-4 text-[#232323] font-[Helvetica]">
-                <p>© {year} Julian Grande</p>
+                <p>© {year} Julian Grande. All Rights Reserved.</p>
             </div>
         </div>
 

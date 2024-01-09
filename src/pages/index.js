@@ -7,16 +7,32 @@ import Skills from "./components/Skills";
 
 export default function Home() {
   return (
-      <div className="bg-[#f8f5f2]"> {/** bg-op 100% */}
+      <div> {/** bg-op 100% */}
         <Head>
           <title>Julian Grande | Software Engineer</title>
           <meta name="description" content="Julian Grande's Portfolio Website"></meta>
         </Head>
-        <Main />
-        <About />
-        <Skills />
-        <ProjectCards />
-        <Footer />
+
+        <div className="bg-[#f8f5f2]">
+          <Main />
+        </div>
+
+        <div className="bg-[#fffffe]">
+          <About />
+        </div>
+
+        <div className="bg-[#f8f5f2]">
+          <Skills />
+        </div>
+
+        <div className="bg-[#fffffe]">
+          <ProjectCards />
+        </div>
+
+        <div className="bg-[#f8f5f2]">
+          <Footer />
+        </div>
+
       </div>
   );
 };
