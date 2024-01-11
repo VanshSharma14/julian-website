@@ -4,6 +4,7 @@ import About from "./components/About";
 import ProjectCards from "./components/ProjectCards";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
+import AlternateProjectSection from "./components/AlternateProjectSection";
 
 export default function Home() {
   return (
@@ -26,7 +27,8 @@ export default function Home() {
         </div>
 
         <div className="bg-[#fffffe]">
-          <ProjectCards />
+          {/* <ProjectCards /> */}
+          <AlternateProjectSection />
         </div>
 
         <div className="bg-[#f8f5f2]">
